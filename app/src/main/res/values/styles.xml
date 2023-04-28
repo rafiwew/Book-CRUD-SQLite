@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textAppearanceButton">@style/AppTextAppearance.Button</item>
+    </style>
+
+    <style name="AppTextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextView.Large" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/shape_rectangle_rounded_grey</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="EditText.Judul">
+        <item name="android:drawableStart">@drawable/ic_title</item>
+        <item name="android:hint">Judul Buku</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="EditText.Penulis">
+        <item name="android:drawableStart">@drawable/ic_author</item>
+        <item name="android:hint">Penulis Buku</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="EditText.Kategori">
+        <item name="android:drawableStart">@drawable/ic_category</item>
+        <item name="android:hint">Kategori Buku</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+</resources>
